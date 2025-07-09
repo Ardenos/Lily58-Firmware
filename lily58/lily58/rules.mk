@@ -16,9 +16,9 @@ NKRO_ENABLE = no            # Enable N-Key Rollover
 BACKLIGHT_ENABLE = no      # Enable keyboard backlight functionality
 AUDIO_ENABLE = no           # Audio output
 
-ENCODER_ENABLE = yes       # ENables the use of one or more encoders
+ENCODER_ENABLE = no       # ENables the use of one or more encoders
 LTO_ENABLE = yes 		   # significantly reduce the compiled size, but disable the legacy TMK Macros and Functions features
 
 OLED_DRIVER = ssd1306    # OLED display
 SERIAL_DRIVER = vendor
-RGB_MATRIX_ENABLE = yes
+RGB_MATRIX_ENABLE = no
